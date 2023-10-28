@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import Login from './Login/Login'
 import './App.css'
 
 export default function App() {
@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <>
-    <h1 className="font-semibold">Hello !!!</h1>
+    <Login></Login>
     </>
   )
 }
